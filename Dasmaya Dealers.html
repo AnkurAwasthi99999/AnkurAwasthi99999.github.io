@@ -138,6 +138,27 @@
          <div class="content">
             <h3>Silico- Manganese</h3>
             <p>Explore excellence with our premium Silico Manganese (SiMn) 60/14 – a standout product in our ferroalloys collection. Meticulously sourced and traded, it embodies our commitment to quality and reliability in the world of alloys. </p>
+            <!-- <a href="silico-manganese.html" class="btn">read more</a>
+            <iframe src="silico-manganese.html" width="100%" height="300" style="border:1px ;">
+            </iframe> -->
+
+            <button class="btn" onclick="openIframe()">know more</button>
+
+            <div id="iframeContainer">
+                <div id="iframeBox">
+                    <span id="closeButton" onclick="closeIframe()">✕</span>
+                    <iframe id="myIframe" src="silico-manganese.html" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
             <a href="tel:+915224340706" class="btn">For inquiries, call us</a>
             <!-- <div class="icons">
                <span> <i class="fas fa-book"></i> write here </span>
@@ -154,6 +175,7 @@
          <div class="content">
             <h3>Zirconium powder</h3>
             <p> Elevate your materials with our premium Zirconium Powder! As seasoned merchant traders, we proudly offer a superior grade of Zirconium Powder, meticulously crafted to meet the highest industry standards.  </p>
+           
             <a href="tel:+915224340706" class="btn">For inquiries, call us</a>
             <!-- <div class="icons">
                <span> <i class="fas fa-book"></i> write here</span>
@@ -170,6 +192,14 @@
          <div class="content">
             <h3>Ferromanganese</h3>
             <p>Empower your steel production with our top-tier Ferromanganese – a superior alloy of manganese and iron. Elevate strength and durability in steel manufacturing with our meticulously processed, high-quality product. Partner with us for excellence in every alloy</p>
+            <button class="btn" onclick="openIframe3()">know more</button>
+
+            <div id="iframeContainer3">
+                <div id="iframeBox3">
+                    <span id="closeButton3" onclick="closeIframe3()">✕</span>
+                    <iframe id="myIframe3" src="ferro-manganese.html" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </div>
             <a href="tel:+915224340706" class="btn">For inquiries, call us</a>
             <!-- <div class="icons">
                <span> <i class="fas fa-book"></i> write here </span>
@@ -186,6 +216,15 @@
          <div class="content">
             <h3>Ferro-Silicon</h3>
             <p>Discover precision in every alloy with our Ferro Silicon – a premier product in our diverse ferroalloy range. As esteemed merchant traders, we provide a superior blend of quality and reliability, ensuring our Ferro Silicon exceeds industry standards. </p>
+            <button class="btn" onclick="openIframe4()">know more</button>
+
+            <div id="iframeContainer4">
+                <div id="iframeBox4">
+                    <span id="closeButton4" onclick="closeIframe4()">✕</span>
+                    <iframe id="myIframe4" src="ferro-silicon.html" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </div>
+
             <a href="tel:+915224340706" class="btn">For inquiries, call us</a>
             <!-- <div class="icons">
                <span> <i class="fas fa-book"></i> write here </span>
@@ -202,6 +241,17 @@
          <div class="content">
             <h3>Basic Ramming Mass</h3>
             <p>Elevate your furnace performance with our top-tier Basic Ramming Mass, a cornerstone product in our ferroalloy selection. As dedicated merchant traders, we provide a premium solution designed for optimal refractory performance, ensuring durability and efficiency in your industrial processes. </p>
+            <button class="btn" onclick="openIframe5()">know more</button>
+
+            <div id="iframeContainer5">
+                <div id="iframeBox5">
+                    <span id="closeButton5" onclick="closeIframe5()">✕</span>
+                    <iframe id="myIframe5" src="basic-ramming-mass.html" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+            </div>
+
+
+
             <a href="tel:+915224340706" class="btn">For inquiries, call us</a>
             <!-- <div class="icons">
                <span> <i class="fas fa-book"></i> 60+ Seats </span>
@@ -218,6 +268,14 @@
          <div class="content">
             <h3>Carburizers</h3>
             <p>Empower your metallurgical processes with our high-quality Carboriser, a flagship product among our ferroalloys. As reputable merchant traders, we deliver a superior carbon solution, enhancing the performance and efficiency of your alloys. </p>
+            <button class="btn" onclick="openIframe6()">know more</button>
+
+            <div id="iframeContainer6">
+                <div id="iframeBox6">
+                    <span id="closeButton6" onclick="closeIframe6()">✕</span>
+                    <iframe id="myIframe6" src="carburizer.html" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+                </div>
             <a href="tel:+915224340706" class="btn">For inquiries, call us</a>
             <!-- <div class="icons">
                <span> <i class="fas fa-book"></i> 60+ seats </span>
@@ -234,6 +292,14 @@
          <div class="content">
             <h3>Calcined Petroleum Coke Cpc</h3>
             <p>Unlock the potential of your industrial processes with our premier product, Calcined Petroleum Coke (CPC). As esteemed merchant traders, we provide a high-quality CPC solution designed to enhance efficiency and performance in various applications.</p>
+            <button class="btn" onclick="openIframe7()">know more</button>
+
+            <div id="iframeContainer7">
+                <div id="iframeBox7">
+                    <span id="closeButton7" onclick="closeIframe7()">✕</span>
+                    <iframe id="myIframe7" src="cpc.html" width="100%" height="100%" frameborder="0"></iframe>
+                </div>
+                </div>
             <a href="tel:+915224340706" class="btn">For inquiries, call us</a>
             <!-- <div class="icons">
                <span> <i class="fas fa-book"></i> 100 Seats </span>
@@ -362,6 +428,59 @@
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 
+<script>
+   // java script for first iframe
+   function openIframe() {
+       document.getElementById('iframeContainer').style.display = 'flex';
+   }
+
+   function closeIframe() {
+       document.getElementById('iframeContainer').style.display = 'none';
+   }
+   // java script for thirc iframe
+   function openIframe3() {
+       document.getElementById('iframeContainer3').style.display = 'flex';
+   }
+
+   function closeIframe3() {
+       document.getElementById('iframeContainer3').style.display = 'none';
+   }
+
+    // java script for fifth iframe
+    function openIframe5() {
+       document.getElementById('iframeContainer5').style.display = 'flex';
+   }
+
+   function closeIframe5() {
+       document.getElementById('iframeContainer5').style.display = 'none';
+   }
+     // java script for fourth iframe
+     function openIframe4() {
+       document.getElementById('iframeContainer4').style.display = 'flex';
+   }
+
+   function closeIframe4() {
+       document.getElementById('iframeContainer4').style.display = 'none';
+   }
+       // java script for sixth iframe
+       function openIframe6() {
+       document.getElementById('iframeContainer6').style.display = 'flex';
+   }
+
+   function closeIframe6() {
+       document.getElementById('iframeContainer6').style.display = 'none';
+   }
+       // java script for seventh iframe
+       function openIframe7() {
+       document.getElementById('iframeContainer7').style.display = 'flex';
+   }
+
+   function closeIframe7() {
+       document.getElementById('iframeContainer7').style.display = 'none';
+   }
+</script>
+
+
 </body>
 </html>
 
@@ -372,3 +491,4 @@
 <i class="fa fa-whatsapp my-float"></i>
 </a>
 <!-- whatsapp link end -->
+
